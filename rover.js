@@ -3,7 +3,6 @@ var myRover = {
   direction: "N"
 };
 
-
 function goForward(rover) {
   if (rover.direction === "N") {
     if (rover.position[0] === 10) {
@@ -149,4 +148,4 @@ function instructionsQuestion() {
 
 
 
-instructionsQuestion();
+instructionsQuestion()
